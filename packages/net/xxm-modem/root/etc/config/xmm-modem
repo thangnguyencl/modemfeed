@@ -1,0 +1,18 @@
+config xmm-modem
+	option enable '1'
+	option port '/dev/ttyACM2'
+	option device 'eth1'
+	option interface 'fibocom'
+	option apn 'internet'
+	option auth_type 'none'
+	option auth_username 'none'
+	option auth_password 'none'
+	option metric '0'
+	option retry_wait '3'
+	option max_retries '10'
+	option disable_max_retries '0'
+	option connection_wait '0'
+	option force_link '0'
+	option enable_watchdog '1'
+	option connection_status '0'
+
